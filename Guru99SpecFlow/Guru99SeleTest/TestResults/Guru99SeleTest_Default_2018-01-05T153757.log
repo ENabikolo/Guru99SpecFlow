@@ -1,0 +1,268 @@
+﻿2018-01-05T15:37:57.5360947+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-05T15:37:57.6704520+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-05T15:37:57.6709531+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Admin\Desktop\Specflow\VSWork\Guru99SeleTest\Guru99SeleTest\bin\Debug\Guru99SeleTest.dll
+2018-01-05T15:37:57.6709531+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-05T15:38:11.7810253+00:00;Thread#14;Info;Discovering target: Default
+2018-01-05T15:38:11.7810253+00:00;Thread#14;Info;Discovering tests from assembly: C:\Users\Admin\Desktop\Specflow\VSWork\Guru99SeleTest\Guru99SeleTest\bin\Debug\Guru99SeleTest.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Guru99SeleTest/Default - 
+#1: Default - 
+#2: Guru99SeleTest - 
+#3: Guru99 Add New Customer - 
+#4: Add New Customer - TestAssembly:Guru99SeleTest/Feature:Guru99+Add+New+Customer/Scenario:Add+New+Customer
+#5: Add No Customer Name - TestAssembly:Guru99SeleTest/Feature:Guru99+Add+New+Customer/Scenario:Add+No+Customer+Name
+#6: Add New Customer Name with special characters. - TestAssembly:Guru99SeleTest/Feature:Guru99+Add+New+Customer/Scenario:Add+New+Customer+Name+with+special+characters.
+#7: Add New Customer Name with space - TestAssembly:Guru99SeleTest/Feature:Guru99+Add+New+Customer/Scenario:Add+New+Customer+Name+with+space
+#8: Select a gender - TestAssembly:Guru99SeleTest/Feature:Guru99+Add+New+Customer/Scenario:Select+a+gender
+#9: Select No Date Of Birth - TestAssembly:Guru99SeleTest/Feature:Guru99+Add+New+Customer/Scenario:Select+No+Date+Of+Birth
+#10: Select different format for DOB - TestAssembly:Guru99SeleTest/Feature:Guru99+Add+New+Customer/Scenario:Select+different+format+for+DOB
+#11: Enter different formt for DOB - TestAssembly:Guru99SeleTest/Feature:Guru99+Add+New+Customer/Scenario:Enter+different+formt+for+DOB
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for Guru99SeleTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Admin\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.3\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I open chrome
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIOpenChrome() (3.8s)
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIGoToHttpWww_Demo_Guru_ComV("http://www.demo.g...") (0.8s)
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheUsernameMngr("mngr111936") (0.1s)
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterThePasswordSUmagYp("sUmagYp") (0.0s)
+Thread#0:B:And I click the login button
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickTheLoginButton() (0.5s)
+Thread#0:B:And I am successfully logged in
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIAmSuccessfullyLoggedIn() (0.0s)
+Thread#0:B:And I click on the New Customer Link
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickOnTheNewCustomerLink() (0.2s)
+Thread#0:B:Then I clean up the environment
+Thread#0:T:done: Guru99AddNewCustomerSteps.ThenICleanUpTheEnvironment() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 5.8608108 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given I open chrome
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIOpenChrome() (3.4s)
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIGoToHttpWww_Demo_Guru_ComV("http://www.demo.g...") (0.9s)
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheUsernameMngr("mngr111936") (0.1s)
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterThePasswordSUmagYp("sUmagYp") (0.0s)
+Thread#0:B:And I click the login button
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickTheLoginButton() (0.4s)
+Thread#0:B:And I am successfully logged in
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIAmSuccessfullyLoggedIn() (0.0s)
+Thread#0:B:And I click on the New Customer Link
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickOnTheNewCustomerLink() (0.2s)
+Thread#0:B:And I enter the character " " in the Name Field
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheCharacterInTheNameField("" "") (0.1s)
+Thread#0:B:Then I clean up the environment
+Thread#0:T:done: Guru99AddNewCustomerSteps.ThenICleanUpTheEnvironment() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 5.1936896 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given I open chrome
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIOpenChrome() (3.5s)
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIGoToHttpWww_Demo_Guru_ComV("http://www.demo.g...") (0.8s)
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheUsernameMngr("mngr111936") (0.1s)
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterThePasswordSUmagYp("sUmagYp") (0.0s)
+Thread#0:B:And I click the login button
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickTheLoginButton() (0.4s)
+Thread#0:B:And I am successfully logged in
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIAmSuccessfullyLoggedIn() (0.0s)
+Thread#0:B:And I click on the New Customer Link
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickOnTheNewCustomerLink() (0.2s)
+Thread#0:B:And I enter the Customer Name "Al1c£ Nank8a"
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheCustomerName(""Al1c£ Nank8a"") (0.1s)
+Thread#0:B:Then I clean up the environment
+Thread#0:T:done: Guru99AddNewCustomerSteps.ThenICleanUpTheEnvironment() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 5.0614727 seconds
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given I open chrome
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIOpenChrome() (3.4s)
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIGoToHttpWww_Demo_Guru_ComV("http://www.demo.g...") (0.8s)
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheUsernameMngr("mngr111936") (0.1s)
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterThePasswordSUmagYp("sUmagYp") (0.0s)
+Thread#0:B:And I click the login button
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickTheLoginButton() (0.4s)
+Thread#0:B:And I am successfully logged in
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIAmSuccessfullyLoggedIn() (0.0s)
+Thread#0:B:And I click on the New Customer Link
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickOnTheNewCustomerLink() (0.2s)
+Thread#0:B:And I enter the Customer name with space " Alice"
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheCustomerNameWithSpace("" Alice"") (0.1s)
+Thread#0:B:Then I clean up the environment
+Thread#0:T:done: Guru99AddNewCustomerSteps.ThenICleanUpTheEnvironment() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #8 from normal test queue 
+Thread#0:Scheduler: considering testitem #8 for thread 0
+Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #8 for thread 0
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 5.1211435 seconds
+Thread#0: Test #8/0 is started on thread #0
+Thread#0:B:Given I open chrome
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIOpenChrome() (3.5s)
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIGoToHttpWww_Demo_Guru_ComV("http://www.demo.g...") (0.9s)
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheUsernameMngr("mngr111936") (0.1s)
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterThePasswordSUmagYp("sUmagYp") (0.0s)
+Thread#0:B:And I click the login button
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickTheLoginButton() (0.4s)
+Thread#0:B:And I am successfully logged in
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIAmSuccessfullyLoggedIn() (0.0s)
+Thread#0:B:And I click on the New Customer Link
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickOnTheNewCustomerLink() (0.2s)
+Thread#0:B:And I select a gender
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenISelectAGender() (0.0s)
+Thread#0:B:Then I clean up the environment
+Thread#0:T:done: Guru99AddNewCustomerSteps.ThenICleanUpTheEnvironment() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread 0
+Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #9 for thread 0
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 5.1759178 seconds
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:B:Given I open chrome
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIOpenChrome() (3.4s)
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIGoToHttpWww_Demo_Guru_ComV("http://www.demo.g...") (0.8s)
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheUsernameMngr("mngr111936") (0.1s)
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterThePasswordSUmagYp("sUmagYp") (0.0s)
+Thread#0:B:And I click the login button
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickTheLoginButton() (0.4s)
+Thread#0:B:And I am successfully logged in
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIAmSuccessfullyLoggedIn() (0.0s)
+Thread#0:B:And I click on the New Customer Link
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickOnTheNewCustomerLink() (0.2s)
+Thread#0:B:And I do not select the date of birth "dd/mm/yyyy"
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIDoNotSelectTheDateOfBirth(""dd", "mm", "yyyy"") (0.1s)
+Thread#0:B:Then I clean up the environment
+Thread#0:T:done: Guru99AddNewCustomerSteps.ThenICleanUpTheEnvironment() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #10 from normal test queue 
+Thread#0:Scheduler: considering testitem #10 for thread 0
+Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #10 for thread 0
+Thread#0:Scheduler: Test #10 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 5.1206745 seconds
+Thread#0: Test #10/0 is started on thread #0
+Thread#0:B:Given I open chrome
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIOpenChrome() (3.4s)
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIGoToHttpWww_Demo_Guru_ComV("http://www.demo.g...") (0.8s)
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheUsernameMngr("mngr111936") (0.1s)
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterThePasswordSUmagYp("sUmagYp") (0.0s)
+Thread#0:B:And I click the login button
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickTheLoginButton() (0.4s)
+Thread#0:B:And I am successfully logged in
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIAmSuccessfullyLoggedIn() (0.0s)
+Thread#0:B:And I click on the New Customer Link
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickOnTheNewCustomerLink() (0.2s)
+Thread#0:B:And I enter the Date of Birth "dd/mm/yy"
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheDateOfBirth(""dd", "mm", "yy"") (5.1s)
+Thread#0:B:Then I clean up the environment
+Thread#0:T:done: Guru99AddNewCustomerSteps.ThenICleanUpTheEnvironment() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #11 from normal test queue 
+Thread#0:Scheduler: considering testitem #11 for thread 0
+Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #11 for thread 0
+Thread#0:Scheduler: Test #11 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #10/0 is finished on thread #0 as Succeeded within 10.1410376 seconds
+Thread#0: Test #11/0 is started on thread #0
+Thread#0:B:Given I open chrome
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIOpenChrome() (3.5s)
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIGoToHttpWww_Demo_Guru_ComV("http://www.demo.g...") (0.8s)
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheUsernameMngr("mngr111936") (0.1s)
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterThePasswordSUmagYp("sUmagYp") (0.0s)
+Thread#0:B:And I click the login button
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickTheLoginButton() (0.4s)
+Thread#0:B:And I am successfully logged in
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIAmSuccessfullyLoggedIn() (0.0s)
+Thread#0:B:And I click on the New Customer Link
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIClickOnTheNewCustomerLink() (0.2s)
+Thread#0:B:And I enter the format for DOB as "d/m/yy"
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheFormatForDOBAs(""d", "m", "yy"") (5.0s)
+Thread#0:B:Then I clean up the environment
+Thread#0:T:done: Guru99AddNewCustomerSteps.ThenICleanUpTheEnvironment() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #11/0 is finished on thread #0 as Succeeded within 10.0930781 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 8
+Succeeded: 8
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

@@ -1,0 +1,155 @@
+﻿2018-01-05T10:07:26.8301673+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-05T10:07:26.9534679+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-05T10:07:26.9534679+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Admin\Desktop\Specflow\VSWork\Guru99SeleTest\Guru99SeleTest\bin\Debug\Guru99SeleTest.dll
+2018-01-05T10:07:26.9534679+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-05T10:07:35.0618421+00:00;Thread#14;Info;Discovering target: Default
+2018-01-05T10:07:35.0618421+00:00;Thread#14;Info;Discovering tests from assembly: C:\Users\Admin\Desktop\Specflow\VSWork\Guru99SeleTest\Guru99SeleTest\bin\Debug\Guru99SeleTest.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Guru99SeleTest/Default - 
+#1: Default - 
+#2: Guru99SeleTest - 
+#3: Guru99 Add New Customer - 
+#4: Add New Customer - TestAssembly:Guru99SeleTest/Feature:Guru99+Add+New+Customer/Scenario:Add+New+Customer
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for Guru99SeleTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Admin\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.3\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I open chrome
+Thread#0:T:error: The file C:\Users\Admin\Desktop\Specflow\VSWork\Guru99SeleTest\TestResults\..\Guru99SeleTest\chromedriver.exe does not exist. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/manager/Managerhomepage.php
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I click on the New Customer Link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Customer Name "Alice Nankya"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select the gender of female
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Date of Birth "31/12/1946"
+Thread#0:T:error: String was not recognized as a valid DateTime.
+Thread#0:B:And I enter the address "1 Anchorage Quay"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the City "San Jose"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the State "California"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the PIN "3126"
+Thread#0:T:error: Input string was not in a correct format.
+Thread#0:B:And I enter the Telephone Number "+1-408-589-3624"
+Thread#0:T:error: Input string was not in a correct format.
+Thread#0:B:And I enter the Email Id "alicenorah71@live.co.uk"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click the Submit button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I add a New customer successfully
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I clean up the environment
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 0.5129253 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I open chrome
+Thread#0:T:error: The file C:\Users\Admin\Desktop\Specflow\VSWork\Guru99SeleTest\TestResults\..\Guru99SeleTest\chromedriver.exe does not exist. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/manager/Managerhomepage.php
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I click on the New Customer Link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Customer Name "Alice Nankya"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select the gender of female
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Date of Birth "31/12/1946"
+Thread#0:T:error: String was not recognized as a valid DateTime.
+Thread#0:B:And I enter the address "1 Anchorage Quay"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the City "San Jose"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the State "California"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the PIN "3126"
+Thread#0:T:error: Input string was not in a correct format.
+Thread#0:B:And I enter the Telephone Number "+1-408-589-3624"
+Thread#0:T:error: Input string was not in a correct format.
+Thread#0:B:And I enter the Email Id "alicenorah71@live.co.uk"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click the Submit button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I add a New customer successfully
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I clean up the environment
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.004011 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I open chrome
+Thread#0:T:error: The file C:\Users\Admin\Desktop\Specflow\VSWork\Guru99SeleTest\TestResults\..\Guru99SeleTest\chromedriver.exe does not exist. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/manager/Managerhomepage.php
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I click on the New Customer Link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Customer Name "Alice Nankya"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select the gender of female
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Date of Birth "31/12/1946"
+Thread#0:T:error: String was not recognized as a valid DateTime.
+Thread#0:B:And I enter the address "1 Anchorage Quay"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the City "San Jose"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the State "California"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the PIN "3126"
+Thread#0:T:error: Input string was not in a correct format.
+Thread#0:B:And I enter the Telephone Number "+1-408-589-3624"
+Thread#0:T:error: Input string was not in a correct format.
+Thread#0:B:And I enter the Email Id "alicenorah71@live.co.uk"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click the Submit button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I add a New customer successfully
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I clean up the environment
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.00401 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

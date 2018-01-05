@@ -1,0 +1,107 @@
+﻿2018-01-04T14:09:28.6379933+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-04T14:09:28.7628250+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-04T14:09:28.7633264+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Admin\Desktop\Specflow\VSWork\SeleniumTestProject1\SeleniumTestProject1\bin\Debug\SeleniumTestProject1.dll
+2018-01-04T14:09:28.7633264+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-04T14:09:37.8876701+00:00;Thread#14;Info;Discovering target: Default
+2018-01-04T14:09:37.8876701+00:00;Thread#14;Info;Discovering tests from assembly: C:\Users\Admin\Desktop\Specflow\VSWork\SeleniumTestProject1\SeleniumTestProject1\bin\Debug\SeleniumTestProject1.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SeleniumTestProject1/Default - 
+#1: Default - 
+#2: SeleniumTestProject1 - 
+#3: Guru99 Login - 
+#4: Valid Login - TestAssembly:SeleniumTestProject1/Feature:Guru99+Login/Scenario:Valid+Login
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SeleniumTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Admin\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.3\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I open firefox
+Thread#0:T:error: The file C:\Users\Admin\Desktop\Specflow\VSWork\SeleniumTestProject1\TestResults\..\SeleniumTestProject1\chromedriver.exe does not exist. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click the login button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I am successfully logged in
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I clean up the environnement
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 0.473286 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I open firefox
+Thread#0:T:error: The file C:\Users\Admin\Desktop\Specflow\VSWork\SeleniumTestProject1\TestResults\..\SeleniumTestProject1\chromedriver.exe does not exist. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click the login button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I am successfully logged in
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I clean up the environnement
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.0030081 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I open firefox
+Thread#0:T:error: The file C:\Users\Admin\Desktop\Specflow\VSWork\SeleniumTestProject1\TestResults\..\SeleniumTestProject1\chromedriver.exe does not exist. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click the login button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I am successfully logged in
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I clean up the environnement
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0060164 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

@@ -1,0 +1,204 @@
+﻿2018-01-05T11:55:53.7964873+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-05T11:55:53.9253297+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-05T11:55:53.9258311+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Admin\Desktop\Specflow\VSWork\Guru99SeleTest\Guru99SeleTest\bin\Debug\Guru99SeleTest.dll
+2018-01-05T11:55:53.9258311+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-05T11:56:06.0340555+00:00;Thread#14;Info;Discovering target: Default
+2018-01-05T11:56:06.0350584+00:00;Thread#14;Info;Discovering tests from assembly: C:\Users\Admin\Desktop\Specflow\VSWork\Guru99SeleTest\Guru99SeleTest\bin\Debug\Guru99SeleTest.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Guru99SeleTest/Default - 
+#1: Default - 
+#2: Guru99SeleTest - 
+#3: Guru99 Add New Customer - 
+#4: Add New Customer - TestAssembly:Guru99SeleTest/Feature:Guru99+Add+New+Customer/Scenario:Add+New+Customer
+#5: Add No Customer Name - TestAssembly:Guru99SeleTest/Feature:Guru99+Add+New+Customer/Scenario:Add+No+Customer+Name
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for Guru99SeleTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Admin\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.3\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I open chrome
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIOpenChrome() (3.8s)
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIGoToHttpWww_Demo_Guru_ComV("http://www.demo.g...") (0.8s)
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheUsernameMngr("111936") (0.1s)
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:binding error: Parameter count mismatch! The binding method 'Guru99AddNewCustomerSteps.WhenIEnterThePasswordSUmagYp(String)' should have 0 parameters
+Thread#0:B:And I click the login button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I am successfully logged in
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on the New Customer Link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I clean up the environment
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 5.0632217 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I open chrome
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIOpenChrome() (9.1s)
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIGoToHttpWww_Demo_Guru_ComV("http://www.demo.g...") (2.4s)
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheUsernameMngr("111936") (0.1s)
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:binding error: Parameter count mismatch! The binding method 'Guru99AddNewCustomerSteps.WhenIEnterThePasswordSUmagYp(String)' should have 0 parameters
+Thread#0:B:And I click the login button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I am successfully logged in
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on the New Customer Link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I clean up the environment
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 11.5205828 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I open chrome
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIOpenChrome() (3.4s)
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIGoToHttpWww_Demo_Guru_ComV("http://www.demo.g...") (0.8s)
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheUsernameMngr("111936") (0.0s)
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:binding error: Parameter count mismatch! The binding method 'Guru99AddNewCustomerSteps.WhenIEnterThePasswordSUmagYp(String)' should have 0 parameters
+Thread#0:B:And I click the login button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I am successfully logged in
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on the New Customer Link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I clean up the environment
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 4.2707292 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given I open chrome
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIOpenChrome() (3.4s)
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIGoToHttpWww_Demo_Guru_ComV("http://www.demo.g...") (0.8s)
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheUsernameMngr("111936") (0.1s)
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:binding error: Parameter count mismatch! The binding method 'Guru99AddNewCustomerSteps.WhenIEnterThePasswordSUmagYp(String)' should have 0 parameters
+Thread#0:B:And I click the login button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I am successfully logged in
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on the New Customer Link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Customer Name " "
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I clean up the environment
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #5/0 is finished on thread #0 as Failed within 4.264009 seconds
+Thread#0: Test #5/1 is started on thread #0
+Thread#0:B:Given I open chrome
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIOpenChrome() (3.5s)
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIGoToHttpWww_Demo_Guru_ComV("http://www.demo.g...") (0.8s)
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:done: Guru99AddNewCustomerSteps.WhenIEnterTheUsernameMngr("111936") (0.1s)
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:binding error: Parameter count mismatch! The binding method 'Guru99AddNewCustomerSteps.WhenIEnterThePasswordSUmagYp(String)' should have 0 parameters
+Thread#0:B:And I click the login button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I am successfully logged in
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on the New Customer Link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Customer Name " "
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I clean up the environment
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #5/1 is finished on thread #0 as Failed within 4.3468885 seconds
+Thread#0: Test #5/2 is started on thread #0
+Thread#0:B:Given I open chrome
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIOpenChrome() (8.3s)
+Thread#0:B:And I go to http://www.demo.guru99.com/V4/
+Thread#0:T:done: Guru99AddNewCustomerSteps.GivenIGoToHttpWww_Demo_Guru_ComV("http://www.demo.g...") (4.0s)
+Thread#0:B:When I enter the username mngr111936
+Thread#0:T:error: chrome not reachable
+Thread#0:T:  (Session info: chrome=63.0.3239.108)
+Thread#0:T:  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.10240 x86_64) (100)
+Thread#0:B:And I enter the password sUmagYp
+Thread#0:T:binding error: Parameter count mismatch! The binding method 'Guru99AddNewCustomerSteps.WhenIEnterThePasswordSUmagYp(String)' should have 0 parameters
+Thread#0:B:And I click the login button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I am successfully logged in
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on the New Customer Link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Customer Name " "
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I clean up the environment
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #5/2 is finished on thread #0 as Failed within 16.3628259 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 2 (test executions: 6)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 2
